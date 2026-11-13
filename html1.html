@@ -1,0 +1,46 @@
+    <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps & Systems Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Cloud & Systems Engineering Portfolio</h1>
+            <p>Автоматизация инфраструктуры, CI/CD пайплайны и системная разработка</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <h2>Обо мне</h2>
+            <p>Специалист по системному администрированию и облачным технологиям. Занимаюсь построением отказоустойчивых сред, контейнеризацией и настройкой сквозной автоматизации доставки кода (CI/CD).</p>
+        </section>
+
+        <section class="card">
+            <h2>Навыки и стек</h2>
+            <ul>
+                <li><strong>Cloud & CI/CD:</strong> GitHub Actions, Docker, Linux (Ubuntu/Debian)</li>
+                <li><strong>Языки и скрипты:</strong> Python, Bash, JavaScript</li>
+                <li><strong>Системы хранения:</strong> Базы данных, сетевые хранилища и мониторинг</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>Интерактивная панель статуса</h2>
+            <p>Нажмите на кнопку ниже, чтобы проверить текущий статус симуляции деплоя инфраструктуры в облако.</p>
+            <button id="deployBtn">Запустить проверку статуса</button>
+            <div id="statusOutput" class="output-box">Статус: Ожидание запуска проверки...</div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Cloud-CICD-Project. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
